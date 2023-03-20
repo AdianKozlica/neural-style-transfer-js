@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Neural Style Transfer Example</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <img id="first" alt="Input">
+            <span class="symbol">+</span>
+            <img id="second" alt="Style">
+            <span class="symbol">=</span>
+            <img id="output" alt="Output">
+        </div>
+        <canvas class="hidden" id="stylized"></canvas>
+        <input type="file" id="first-image" accept="image/*" hidden>
+        <input type="file" id="second-image" accept="image/*" hidden>
+    </div>
+    <script src="js/magentaimage.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
