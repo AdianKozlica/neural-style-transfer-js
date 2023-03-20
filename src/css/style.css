@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+
+.app {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-25%);
+}
+
+img {
+    display: block;
+    width: 20vw;
+    height: 35vh;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 35vh;
+}
+
+img:active {
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.symbol {
+    display: inline-block;
+    align-self: center;
+    position: relative;
+    font-size: 2.5rem;
+    margin: 0 15px 0 15px;
+}
